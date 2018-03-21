@@ -1,57 +1,40 @@
-# test
-```sql
--- 建表语句
-create table pms_user_(
-		id int ,
-    user_name varchar(20) not null,
-    sex char(1) ,
-    birthday date DEFAULT '2000-01-31',
-    create_time datetime not null
-    
-);
+大标题
+======================
+中标题
+---------
+#一级标题  
+##二级标题  
+###三级标题  
+####四级标题  
+#####五级标题  
+######六级标题 
 
-insert into pms_user_ 
-		   (id,user_name,sex,create_time)
-values
-       (2,'李四', '男','2018-02-02 10:37:59');
+这是一段普通的文本，  
+直接回车不能换行，<br>  
+要使用\<br>  
 
-alter table pms_user_
-add primary key (id,user_name);
--- 删除表
-drop table pms_user_;
+Hello,`大家好`，我是果冻虾仁。Hello,大家好，我是果冻虾仁。
 
--- 插入数据语句
-insert into pms_user_ 
-		   (user_name,sex,create_time)
-values
-       ('张三', '男','2018-02-02 10:37:59');
-insert into pms_user_ 
-		   (user_name,sex,birthday,create_time)
-values
-       ('李四', '女',null,'2018-02-02 10:37:59');
+	Hello,大家好，我是果冻虾仁。
+	Hello,大家好，我是果冻虾仁。
 
-insert into pms_user_ 
-		   (user_name,sex,birthday,create_time)
-values
-       ('王二', null,null,'2018-02-02 10:37:59');
+[百度](www.baidu.com "你敢点我吗?")
 
-insert into pms_user_ 
-		   (id,user_name,sex,birthday,create_time)
-values
-       (4,'赵六', '',null,'2018-02-02 10:37:59');
-insert into pms_user_ 
-		   (id,user_name,sex,birthday,create_time)
-values
-       (5,'孙琦', ' ',null,'2018-02-02 10:37:59');
+	* 昵称：果冻虾仁  
+* 别名：隔壁老王  
+* 英文名：Jelly 
 
-insert into pms_user_ 
-		   (id,user_name,sex,birthday,create_time)
-values
-       (6,'孙琦', ' ',null,'2018-02-02 10:37:59');
-
--- 查询语句
-select * from pms_user_ where sex = '';
+ * 编程语言  
+    * 脚本语言  
+        * Python 
+	        * 变量
+		        * 整型
 
 
--- hahahahahahahahahaahahahahh
-```
+>数据结构  
+>>树  
+>>>二叉树  
+>>>>平衡二叉树  
+>>>>>满二叉树 
+
+![121](http://img02.sogoucdn.com/app/a/100520093/0e0fd862f51611ae-a90dafa354d6f346-a8ccb6d4ba5a842943a9f44b6f64f884.jpg)
